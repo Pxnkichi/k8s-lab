@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <YOUR_DOCKERHUB_USERNAME>/nginx:latest
+        image: quorix/nginx:latest
         ports:
         - containerPort: 80
 
